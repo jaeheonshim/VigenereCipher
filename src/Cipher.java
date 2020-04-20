@@ -68,7 +68,7 @@ public class Cipher {
 
 				char[] cipherRow = cipherArray[keyArray[i] - 65];
 
-				// I know it's inefficient to loop through the entire array, and I could build a model of the indices, but it's only O(26) constant time so what the heck.
+				// I know it's inefficient to loop through the entire array, and I could build a model of the indices, but it's only O(1) constant time so what the heck.
 				for (int j = 0; j < cipherRow.length; j++) {
 					 if (cipherRow[j] == textArray[i]) {
 						  decryptedMessage.append((char)(j + 65));
