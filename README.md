@@ -81,8 +81,3 @@ Now to find the actual letter to substitute, we can treat this as a normal subst
 By using this process, the shift of the substitution table is determined by the key, and there are multiple degrees of shifting as not every letter in the key is the same.
 
 The same process can be repeated backwards to decrypt text.
-
-My...   
-[GitHub Profile](https://github.com/jaeheonshim)   
-[Twitter Handle](https://twitter.com/jaeheonshim)   
-[Personal Blog](https://jaeheonshim.com) 
